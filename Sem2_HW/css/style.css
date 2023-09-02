@@ -1,0 +1,63 @@
+.container {
+    background : linear-gradient(to right, #D279EE, #F8C390);;
+    width: 800px;
+    margin: 0 auto; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+header div {
+    text-align: center;
+    font-size: x-large;
+}
+
+main {
+    padding: 10px;
+}
+
+p {
+    overflow: hidden;
+}
+
+header,
+footer {
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    font-size: large;
+}
+
+.wrap {
+    float: left;
+    margin-right: 10px;
+}
+.wrap1 {
+    float: right;
+    margin-right: 10px;
+}
+
+.features {
+    font-size: large;
+    font-style: oblique;
+    font : bolder;
+}
+
+nav a {
+    text-decoration: none;
+    color: #A35DB5;
+    background-color: #F8C390;
+    padding: 3px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+nav a:hover {
+    background-color: #A35DB5;
+    color: #F8C390;
+}
+
