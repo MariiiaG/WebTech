@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <div>Main</div>
+        </header>
+        <nav>
+            <a href="index.html">Main Page</a>
+            <a href="cats.html">Kitties</a>
+            <a href="chat.html">Chat</a>
+            <a href="bmi.html">BMI</a>
+
+        </nav>
+
+        <main>
+            <h2>Calculate your BMI</h2>
+            <input type="weight" placeholder="Weight in kilos" id="weight">
+            <input type="height" placeholder="Height in cm" id="height">
+            <button onclick="app()">Count my BMI</button>
+            <br>
+            Result : <span id="result"></span><br>
+            Message : <span id="message"></span>
+            <br>
+            <br>
+            
+        </main>
+
+        <footer>
+            (c)2023 Mariia
+        </footer>
+    </div>
+
+</body>
+</html>
