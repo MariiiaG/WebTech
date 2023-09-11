@@ -1,0 +1,63 @@
+<?php
+$job = [
+'title' => ['M Social', 'Shangri-La', 'Kanuhura'],
+'dates' => ['2019-2021', '2015-2019', '2013-2014'],
+'description' => ['GRM', 'AGRM', 'AGRM']
+]
+?>
+<div class="w3-container w3-card w3-white w3-margin-bottom">
+<h2 class="w3-text-grey w3-padding-16"><i
+class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>
+<?php echo $job['title'][0]; ?>
+</b></h5>
+<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>
+<?php echo $job['dates'][0]; ?>
+</h6>
+<p>
+<?php echo $job['description'][0]; ?>
+</p>
+<hr>
+</div>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>
+<?php echo $job['title'][1]; ?>
+</b></h5>
+<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>
+<?php echo $job['dates'][1]; ?>
+</h6>
+<p>
+<?php echo $job['description'][1]; ?>
+</p>
+<hr>
+</div>
+<div class="w3-container">
+<h5 class="w3-opacity"><b>
+<?php echo $job['title'][2]; ?>
+</b></h5>
+<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>
+<?php echo $job['dates'][2]; ?>
+</h6>
+<p>
+<?php echo $job['description'][2]; ?>
+</p><br>
+</div>
+</div>
+
+
+**Задача 2 **
+
+-- create
+CREATE TABLE employee (
+id INTEGER PRIMARY KEY AUTO_INCREMENT,,
+name TEXT NOT NULL,
+age TEXT NOT NULL,
+address TEXT NOT NULL
+);
+-- insert
+INSERT INTO EMPLOYEE (name, age, address) VALUES ('Maria', '21', 'Samara');
+INSERT INTO EMPLOYEE (name, age, address) VALUES ('Olga', '27', 'Tula');
+INSERT INTO EMPLOYEE (name, age, address) VALUES ('Ivan', '23', 'Orel');
+INSERT INTO EMPLOYEE (name, age, address) VALUES ('Aleksey', '26', 'Moscow');
+INSERT INTO EMPLOYEE (name, age, address) VALUES ('Alisa', '20', 'Saint-Petersburg');
