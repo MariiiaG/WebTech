@@ -11,24 +11,28 @@
     
     <div class="container">
         <header>
-            <div>Main</div>
+            <div>ИМТ</div>
         </header>
         <nav>
-            <a href="index.html">Main Page</a>
-            <a href="cats.html">Kitties</a>
-            <a href="chat.html">Chat</a>
-            <a href="bmi.html">BMI</a>
+            <a href="index.html">Главная</a>
+            <a href="cats.html">Котики</a>
+            <a href="chat.html">Чат</a>
 
         </nav>
 
         <main>
-            <h2>Calculate your BMI</h2>
-            <input type="weight" placeholder="Weight in kilos" id="weight">
-            <input type="height" placeholder="Height in cm" id="height">
-            <button onclick="app()">Count my BMI</button>
+            <h2>Рассчитать Индекс Массы Тела</h2>
+            <input type="weight" placeholder="Вес в кг." id="weight">
+            
+            <input type="height" placeholder="Рост в см." id="height">
             <br>
-            Result : <span id="result"></span><br>
-            Message : <span id="message"></span>
+            <button onclick="app()">Посчитать</button>
+            <br>
+            <br>
+            ИМТ : <span id="result"></span>
+            <br>
+            <br>
+            Вердикт : <span id="message"></span>
             <br>
             <br>
             

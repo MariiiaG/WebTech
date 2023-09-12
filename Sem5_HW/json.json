@@ -1,0 +1,36 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "full name": {
+          "surname": "Иванов",
+          "name": "Иван",
+          "patronymic": "Иванович"
+        },
+        "born": {
+          "birthdate": "01.01.1990",
+          "birthplace": "Москва"
+        },
+        "contacts": {
+          "phone": "8 926 766 48 48",
+          "email": "ivan@mail.ru"
+        }
+      },
+      {
+        "id": 2,
+        "full name": {
+          "surname": "Макаров",
+          "name": "Олег",
+          "patronymic": "Игоревич"
+        },
+        "born": {
+          "birthdate": "31.12.1994",
+          "birthplace": "Санкт-Петербург"
+        },
+        "contacts": {
+          "phone": "8 921 403 51 02",
+          "email": "oleg@mail.ru"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,33 @@
+<students>
+	<student>
+		<id>1</id>
+		<fullName>
+			<surname>Иванов</surname>
+			<name>Иван</name>
+			<patronymic>Иванович</patronymic>
+		</fullName>
+		<born>
+			<birthdate>01.01.1990</birthdate>
+			<birthplace>Москва</birthplace>
+		</born>
+		<contacts>
+			<phone>8 926 766 48 48</phone>
+		</contacts>
+	</student>
+	<student>
+		<id>2</id>
+		<fullName>
+			<surname>Сидорова</surname>
+			<name>Мария</name>
+			<patronymic>Ивановна</patronymic>
+		</fullName>
+		<born>
+			<birthdate>07.04.1992</birthdate>
+			<birthplace>Петрозаводск</birthplace>
+		</born>
+		<contacts>
+			<phone>8 911 654 01 99</phone>
+			<email>maria@mail.ru</email>
+		</contacts>
+	</student>
+</students>

@@ -11,11 +11,11 @@ let meters = cms / 100
 const result = kilos / (meters * meters)
 
 if (result > 25) {
-    document.getElementById('message').innerText  = "Overweight"
+    document.getElementById('message').innerText  = "Надо бы похудеть"
 } else if (result < 18.5) {
-    document.getElementById('message').innerText  = "Underweight"
+    document.getElementById('message').innerText  = "Иди покушай"
 } else {
-    document.getElementById('message').innerText  = "Normal weight"
+    document.getElementById('message').innerText  = "Все ОК :)"
 }
 //alert(`${x} squared equals ${result}`)
 document.getElementById('result').innerText  = result
@@ -26,10 +26,35 @@ function greet() {
     document.getElementById('greetingMessage').innerText  = `Hello, ${user} !`
 }
 
-function send() {
-    document.getElementById('chatMessage').value = "";
-    console.log("Display chat message")
-}
+// function send() {
+//     var message = document.getElementById('message').value;
+//     (async () => {
+//         var response = await fetch('chat.php', {
+//             method: 'post',
+//             headers: {
+//                 'Content-Type': 'application/x-www-form-urlencoded'
+//             },
+//             body: 'message=${message}'
+//         });
+//         var answer = await response.json();
+//         if (answer.status === "ok") document.getElementById('text').value = "";
+//         if (answer.status === "error") document.getElementById('text').value = answer.error;
+//     }
+//     )();   
+// }
+
+// function get() {
+//     (async () => {
+//         var response = await fetch('chat.php');
+//         var answer = await response.json();
+//         let str = '';
+//         for (i in answer.messages) {
+//             str = str + <div class='message'>${answer.messages[i].message}</div>;
+//         }
+//     document.getElementById('messages').innerHTML = str;
+//     }
+//     )();
+//}
 
 
 // x = 234 
